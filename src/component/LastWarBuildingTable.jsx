@@ -10,6 +10,7 @@ const LastWarBuildingTable = ({data, useRequirement = false}) => {
             <Table size="small">
                 <TableHead>
                     <TableRow>
+                        <TableCell>Level</TableCell>
                         <TableCell>Iron</TableCell>
                         <TableCell>Food</TableCell>
                         <TableCell>Gold</TableCell>
