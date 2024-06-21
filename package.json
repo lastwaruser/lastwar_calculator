@@ -1,0 +1,29 @@
+{
+  "homepage": "https://lastwaruser.github.io/lastwar_calculator/",
+  "name": "lastwar_calculator",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/base": "^5.0.0-beta.40",
+    "@mui/icons-material": "^5.15.20",
+    "@mui/material": "^5.15.20",
+    "@mui/x-charts": "^7.7.0",
+    "prop-types": "^15.8.1",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-select": "^5.8.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "latest",
+    "gh-pages": "^6.1.1",
+    "vite": "latest"
+  }
+}
