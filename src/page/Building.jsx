@@ -157,7 +157,7 @@ const Building = () => {
                                 : {calculateWithResourcePercent(selectedInformation.gold)}</Typography>
                         </Paper>
                     </Grid>
-                    <Grid item xs={12}>
+                    <Grid item>
                         <Paper sx={{p: 2, display: 'flex', flexDirection: 'column'}}>
                             <LastWarBuildingTable data={selectedOption.file}
                                                   useRequirement={selectedOption.useRequirement}/>
