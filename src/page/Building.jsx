@@ -96,7 +96,7 @@ const Building = () => {
         if (!resourcePercent || resourcePercent === 0) {
             return value;
         }
-
+        console.log(value)
         const convertResource = parseFloat(value);
 
         if (value.endsWith('K')) {
@@ -104,7 +104,7 @@ const Building = () => {
         }
 
         if (value.endsWith('M')) {
-            return (convertResource * (100 - resourcePercent) / 100).toFixed(2) + "K";
+            return (convertResource * (100 - resourcePercent) / 100).toFixed(2) + "M";
         }
 
         return value;
